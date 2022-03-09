@@ -35,8 +35,8 @@ function SequenciaCrescente($array) {
 	}
 
 	if($chances < 2) {
-		return true;
+		echo "true";
+	}else {
+		echo "false";
 	}
-
-	return false;
 }
